@@ -1,0 +1,32 @@
+.similar-job-item {
+  background-color: #272727;
+  border-radius: 15px;
+  padding: 20px;
+  padding-top: 30px;
+  width: 500px;
+  margin-right: 40px;
+}
+
+.top-sec {
+  align-items: center;
+}
+
+.loc-type-sec {
+  display: flex;
+}
+
+.text-e {
+  margin-right: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.heading-2 {
+  margin-bottom: 0px;
+}
+
+.rating-sec {
+  margin-top: 0px;
+}

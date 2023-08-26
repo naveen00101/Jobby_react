@@ -1,0 +1,34 @@
+.filter-container {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.type-container {
+  list-style: none;
+  padding-left: 0;
+}
+
+.input-salary {
+  margin-right: 10px;
+}
+
+.filter-heading {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.type-check {
+  margin-right: 20px;
+}
+
+.type-item {
+  margin-bottom: 10px;
+}
+
+.salary-item {
+  margin-bottom: 12px;
+}
+
+.filter-line {
+  color: #272727;
+}

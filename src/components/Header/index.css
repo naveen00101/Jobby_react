@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  padding: 30px;
+  /* padding-bottom: 0px; */
+  margin-top: 0;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.website-logo {
+  width: 140px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-btn {
+  background-color: #6366f1;
+  border: none;
+  width: 120px;
+  height: 33px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}

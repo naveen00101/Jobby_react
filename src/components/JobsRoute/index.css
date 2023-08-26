@@ -1,0 +1,79 @@
+.all-sec {
+  background-color: black;
+  color: white;
+  display: flex;
+  /* justify-content: space-between; */
+  padding-top: 40px;
+  min-height: 88vh;
+}
+
+.left-sec {
+  width: 350px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.search-con {
+  border: 1px solid #272727;
+  width: fit-content;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+.search-box {
+  background-color: transparent;
+  width: 400px;
+  min-width: 150px;
+  border: none;
+  height: 33px;
+  color: white;
+  padding-left: 20px;
+  outline: none;
+}
+
+.search-btn {
+  height: 33px;
+  width: 60px;
+  background-color: #272727;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.job-list-container {
+  list-style: none;
+  min-height: 80vh;
+}
+
+.loader-container {
+  width: 70vw;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-con {
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-job-container {
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-route-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
