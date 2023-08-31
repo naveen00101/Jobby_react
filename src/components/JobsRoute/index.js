@@ -90,7 +90,7 @@ class JobsRoute extends Component {
 
         total: data.total,
       }
-
+      console.log(formattedData)
       this.setState({
         jobsList: formattedData,
         apiState: apiStatusConstants.success,
@@ -106,8 +106,8 @@ class JobsRoute extends Component {
 
   renderJobCards = () => {
     const {jobsList} = this.state
-    console.log(jobsList)
-    if (jobsList.total !== 0) {
+    // console.log(jobsList)
+    if (jobsList.jobs.length !== 0) {
       return (
         <ul className="job-list-container">
           {jobsList.jobs.map(each => (
